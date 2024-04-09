@@ -1,0 +1,34 @@
+.fatigue {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    position: relative;
+    margin: 50px;
+}
+
+.discover_btn {
+    width: 150px;
+    height: 45px;
+    background-color: black;
+    border-radius: 5px;
+    border-color: black;
+    transition-duration: 1s;
+    border-style: solid;
+    color: white;
+}
+
+.discover_btn:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: gray;
+    border-color: gray;
+
+}
+
+.inImage {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
